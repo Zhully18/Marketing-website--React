@@ -1,0 +1,51 @@
+.service{
+    height: 70vh;
+    margin-top: 80px;
+}
+.service_container{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 150px;
+    gap: 30px;
+    margin-top: 60px;
+    /* background: black; */
+}
+.service_header{
+    text-align: center;
+}
+.service_list{
+    /* background: black; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 10px;
+    height: 280px;
+    padding-inline: 30px;
+    padding-top: 30px;
+}
+/* .service_list:hover{
+    transform: scale(1.1);
+    background: gold;
+} */
+.service_list i{
+    font-size: 30px;
+    /* color: gold; */
+}
+.service_list h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.service_list .icon{
+    font-size: 30px;
+}
+.service_list p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.service_list .action{
+    display: flex;
+    gap: 20px;
+}
+.service_list:nth-child(1){
+    background-image: linear-gradient(164deg, rgba(214, 214, 214, 0.15) 0%,transparent 44%),linear-gradient(97deg, rgba(197, 197, 197, 0.15) 0%,transparent 40%),linear-gradient(265deg, rgba(218, 210, 210, 0.15) 0%,transparent 30%),linear-gradient(316deg, rgba(158, 141, 141, 0.15) 0%,transparent 78%),repeating-linear-gradient(38deg, rgba(189, 174, 174, 0.1) 0px,transparent 3px),repeating-linear-gradient(100deg, rgba(140,140,140,0.1) 0px,transparent 3px),linear-gradient(90deg, rgb(247, 193, 47),rgb(255,188,0));
+}

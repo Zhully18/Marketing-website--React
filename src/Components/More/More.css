@@ -1,0 +1,38 @@
+.more{
+    height: 40vh;
+    display: flex;
+    gap: 70px;
+    padding-inline: 100px;
+    margin-top: 20px;
+}
+.more .more_right img{
+    width: 500px;
+    height: 350px;
+    border-radius: 40px;
+}
+.more .more_left .left_content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.more .more_left .left_content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.more .more_left .left_content p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.more .more_left .left_content button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: gold;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px 0;
+}
+.more .more_left .left_content button a{
+    color: black;
+}

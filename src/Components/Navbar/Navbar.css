@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    padding-inline: 100px;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    background-color: black;
+    height: 12vh;
+}
+.nav .logo,
+.nav .nav_links
+{
+    margin-top: 20px;
+}
+.nav .btn{
+    margin-top: 10px;
+}
+.nav .logo{
+    color: white;
+    font-size: 22px;
+}
+.nav .nav_links ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.nav .nav_links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav .nav_links a:hover{
+    color: gold;
+}
+.nav .btn button{
+    background: gold;
+    border: none;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav .btn button:hover{
+    background: goldenrod;
+    transform: scale(1.1);
+    color: white;
+}
