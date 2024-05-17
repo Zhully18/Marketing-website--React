@@ -108,4 +108,31 @@ export const feedback =[
       comment: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.',
     },
   
-  ]
+  ];
+
+export const menuItems = [
+    {
+      title: 'How do i get mobile app',
+      content: 'Content for Section 1'
+    },
+    {
+      title: 'How do i contact support',
+      content: 'Content for Section 2'
+    },
+    {
+        title: 'Ho do i track my growth',
+        content: 'Content for Section 2'
+      },
+      {
+        title: 'Does Infigio have paid services',
+        content: 'Content for Section 2'
+      },
+      {
+        title: 'How fast do i see result after using Infigio',
+        content: 'Content for Section 2'
+      },
+    {
+      title: 'Can i use Infigio for free',
+      content: 'Content for Section 3'
+    }
+  ];
