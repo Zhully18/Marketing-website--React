@@ -4,7 +4,7 @@ import {menuItems} from "../Assets/data"
 import AccordionMenu from './AccordionMenu';
 
 // Example usage
-function App() {
+function Faq() {
 
   return (
     <div className='accordion_wrapper'>
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Faq;
